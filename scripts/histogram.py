@@ -28,6 +28,7 @@ def create_histogram(filepath, key, label, title=None, image_name="no_name.png")
     sns.distplot(length, kde=True, axlabel="Length")
     plt.title(title)
     plt.savefig(image_name)
+    plt.close()
     
     return
 

@@ -27,6 +27,7 @@ def make_bargraph(bar_values, x_vals, title = None, image_name = None, xlabel = 
     # legend
     plt.legend()
     plt.savefig(image_name)
+    plt.close()
 
     return
 
