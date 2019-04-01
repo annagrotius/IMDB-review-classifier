@@ -1,5 +1,4 @@
 # IMDB-review-classifier
-Python for Text Analysis final project
 
 *This binary classifier for IMDB reviews is made by Anna de Groot and Simos Fousekis as a 
 part of the final assignment for the course Python for Text Analysis, taught at the Vrije 
@@ -94,4 +93,10 @@ $ python classifier.py
 Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. Additionally, a new folder called [predictions/] will exist in the current working directory where csv files that store the system's predictions can be found. 
 
 
+## Contact Info & Acknowledgements ##
+* Anna de Groot (annagrotius@gmail.com)
 
+Thank you to Pia Sommerauer and Chantal Michelle van Son for the instruction through out the course!
+
+## References ##
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
