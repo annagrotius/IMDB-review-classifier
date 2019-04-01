@@ -88,7 +88,7 @@ After the script is done running, a new folder called [stats_file/] will exist a
 ```
 $ python classifier.py
 ```
-Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. Additionally, a new folder called [predictions/] will exist in the current working directory where csv files that store the system's predictions can be found. 
+Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed for each data set in your console or terminal. Additionally, a new folder called [predictions/] will exist in the current working directory where csv files that store the system's predictions can be found. 
 
 ## Visualizations
 
