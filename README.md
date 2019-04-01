@@ -84,8 +84,6 @@ $ python feature_extraction.py
 While this script runs, a counter is printed to see how many files have been processed so far. 
 After the script is done running, a new folder called [stats_file/] will exist and it will contain 4 csv files.
 
-> run visual
-
 > run *classifier.py*
 ```
 $ python classifier.py
