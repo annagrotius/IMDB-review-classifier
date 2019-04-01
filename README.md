@@ -25,8 +25,8 @@ Before running the system, following the steps below to prepare the data.
 1. **Download the dataset** [here](http://ai.stanford.edu/~amaas/data/sentiment/) and save it in a folder called `data'. 
 Place this folder in the folder where the rest of this project's files will be held. 
 
-2. Since the original downloaded version of the dataset does not contain the training set, run the following
-script to organize the data. 
+2. Since the original downloaded version of the dataset does not contain the training set, run the 
+script *split_data.py* to organize the data, or copy and paste the following line into your terminal.
 
 ```python
 $ python split_data.py
@@ -40,12 +40,12 @@ data/
   train/
     pos/
     neg/
-  valid/
-    pos_valid/
-    neg_valid/
-  test/
+test/
     pos/
     neg/
+valid/
+    pos_valid/
+    neg_valid/
 ```   
 
 ## Necessary Python Libraries
@@ -66,7 +66,7 @@ $ python -m spacy download en
 
 ## Running the Code
 
-After following the steps above, find the necessary files in the folder `scripts\` to run the system. A description of each script 
+After following the steps above, find the necessary files in the folder [scripts/] to run the system. A description of each script 
 can be found at the top of each file. 
 
 There are 2 options to run the system. Refer to the steps below.
@@ -83,9 +83,18 @@ $ python main.py
 Run the scripts in the following order, either manually or copying and pasting the following lines into your 
 terminal.
 
->>> run *feature_extraction.py*
+> run *feature_extraction.py*
 ```
-$ python 
+$ python feature_extraction.py
 ```
+While this script runs, a counter is printed to see how many files have been processed so far. 
+After the script is done running, a new folder called [stats_file/] will exist and it will contain 4 csv files.
 
->>> run 
+> run *classifier.py*
+```
+$ python classifier.py
+```
+Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. 
+
+
+
