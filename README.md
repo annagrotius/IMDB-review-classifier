@@ -5,11 +5,6 @@ Python for Text Analysis final project
 part of the final assignment for the course Python for Text Analysis, taught at the Vrije 
 Universiteit Amsterdam in the [Humanities Research Master: Linguistics](http://masters.vu.nl/en/programmes/linguistics-research/index.aspx) (track [Human Language Technology](http://www.cltl.nl/teaching/human-language-technology/)).*
 
-data
-where it is from
-download from there
-run the script to create train data
-
 ## Data
 The dataset used is called the 'Large Movie Review Dataset' by Maas et al. (2011) and it can be downloaded
 [here](http://ai.stanford.edu/~amaas/data/sentiment/). The data set was already split into negative 
@@ -28,7 +23,7 @@ Place this folder in the folder where the rest of this project's files will be h
 2. Since the original downloaded version of the dataset does not contain the training set, run the 
 script *split_data.py* to organize the data, or copy and paste the following line into your terminal.
 
-```python
+```
 $ python split_data.py
 ```
 
@@ -53,7 +48,7 @@ valid/
 In order to run this code, you will first need to download the packages/modules below.
 Run the following lines in your terminal:
 
->> Installing SpaCy and the necessary language model
+> Installing SpaCy and the necessary language model
 
 ```
 $ conda install -c conda-forge spacy
@@ -90,11 +85,13 @@ $ python feature_extraction.py
 While this script runs, a counter is printed to see how many files have been processed so far. 
 After the script is done running, a new folder called [stats_file/] will exist and it will contain 4 csv files.
 
+> run visual
+
 > run *classifier.py*
 ```
 $ python classifier.py
 ```
-Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. 
+Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. Additionally, a new folder called [predictions/] will exist in the current working directory where csv files that store the system's predictions can be found. 
 
 
 
