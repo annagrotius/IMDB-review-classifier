@@ -92,6 +92,10 @@ $ python classifier.py
 ```
 Once this script finishes, the amount of files processed, the files classified correctly, and the accuracy will be printed in your console or terminal. Additionally, a new folder called [predictions/] will exist in the current working directory where csv files that store the system's predictions can be found. 
 
+#### Visualizations
+
+Some visualizations that were made can be found in the folder [visualizations/].
+The scripts that were used to create these can be found in the folder with the other scripts.
 
 ## Contact Info & Acknowledgements ##
 * Anna de Groot (annagrotius@gmail.com)
