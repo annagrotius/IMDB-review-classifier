@@ -1,6 +1,6 @@
 # IMDB-review-classifier
 
-*This binary classifier for IMDB reviews is made by Anna de Groot and Simos Fousekis as a 
+*This binary classifier for IMDB reviews is made by Anna de Groot as a 
 part of the final assignment for the course Python for Text Analysis, taught at the Vrije 
 Universiteit Amsterdam in the [Humanities Research Master: Linguistics](http://masters.vu.nl/en/programmes/linguistics-research/index.aspx) (track [Human Language Technology](http://www.cltl.nl/teaching/human-language-technology/)).*
 
@@ -16,7 +16,7 @@ your terminal to create a directory for the validation set.
 
 Before running the system, following the steps below to prepare the data. 
 
-1. **Download the dataset** [here](http://ai.stanford.edu/~amaas/data/sentiment/) and save it in a folder called `data'. 
+1. **Download the dataset** [here](http://ai.stanford.edu/~amaas/data/sentiment/) and save it in a folder called [data/]. 
 Place this folder in the folder where the rest of this project's files will be held. 
 
 2. Since the original downloaded version of the dataset does not contain the training set, run the 
@@ -26,7 +26,7 @@ script *split_data.py* to organize the data, or copy and paste the following lin
 $ python split_data.py
 ```
 
-Now there should be a folder in your working directory called `data/` with 3 top-level directories. The structure of the 
+Now there should be a folder in your working directory called [data/] with 3 top-level directories. The structure of the 
 data should look like:
 
 ```
